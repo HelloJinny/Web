@@ -739,7 +739,7 @@
   display: block;
   width: 23px;
   height: 23px;
-  background: url(img/icon.png) no-repeat;
+  background: url(../img/icon.png) no-repeat;
 }
 .gallery .gallery_btn .gb_icon1 {
   background-position: -150px -120px;

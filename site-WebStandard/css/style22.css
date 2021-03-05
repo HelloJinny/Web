@@ -21,20 +21,40 @@
 }
 
 /* 레이아웃 */
-#wrap { }
-#header {height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
-#contents { }
-#footer {border-top: 1px solid #eee;}
+#wrap {
+}
+#header {
+  height: 325px;
+  background: url(../img/header_bg.jpg) center top repeat-x;
+}
+#contents {
+}
+#footer {
+  border-top: 1px solid #eee;
+}
 
 /* 컨텐츠 레이아웃 */
-#cont_nav {background-color: #f6fdff; display: none;}
-#cont_tit {background-color: #eaf7fd;}
-#cont_ban {background: #dceff7;}
-#cont_cont {background-color: #f6fdff;}
-
+#cont_nav {
+  background-color: #f6fdff;
+  display: none;
+}
+#cont_tit {
+  background-color: #eaf7fd;
+}
+#cont_ban {
+  background: #dceff7;
+}
+#cont_cont {
+  background-color: #f6fdff;
+}
 
 /* 컨테이너 */
-.container {width: 990px; margin: 0 auto; height: inherit; background: rgba(255, 255, 255, 0.3);}
+.container {
+  width: 990px;
+  margin: 0 auto;
+  height: inherit;
+  background: rgba(255, 255, 255, 0.3);
+}
 
 /* 헤더 */
 .header .header-menu {
@@ -141,10 +161,29 @@
 }
 
 /* 타이틀 */
-.tit {position: relative; text-align: center}
-.tit h2 {font-size: 40px; color:#2c94c4; letter-spacing: 2px; padding: 5px 0; font-family: 'Nanum Brush Script', cursive;}
-.tit .btn {display: block; width: 60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px; position: absolute; right: 0; top: 5px;}
-.tit .btn.on {background-position: 0 -660px;}
+.tit {
+  position: relative;
+  text-align: center;
+}
+.tit h2 {
+  font-size: 40px;
+  color: #2c94c4;
+  letter-spacing: 2px;
+  padding: 5px 0;
+  font-family: "Nanum Brush Script", cursive;
+}
+.tit .btn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../img/icon.png) no-repeat 0 -600px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.tit .btn.on {
+  background-position: 0 -660px;
+}
 
 /* 배너 */
 .ban {

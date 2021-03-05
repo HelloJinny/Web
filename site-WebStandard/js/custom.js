@@ -44,6 +44,7 @@ function tabMenu(e){
 $tab_list.find('>ul>li>a').click(tabMenu).focus(tabMenu);
 
 //배너
+//html 마크업 셋팅 → css 연동 → 제이쿼리 연동 → 제이쿼리 호출
 $('.ban').slick({
     infinite: true,
     slidesToShow: 3,
@@ -51,6 +52,19 @@ $('.ban').slick({
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true
+});
+
+//갤러리
+$('.gallery_img').slick({
+    dots: true,
+    fade: true,
+    pauseOnHover: true,
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 300,
+    slidesToShow: 1
 });
 
 //갤러리
