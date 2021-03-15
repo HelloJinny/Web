@@ -28,7 +28,7 @@ function nightDayHandler(self){
         Body.setColor('white');
         self.value = 'day';
 
-        
+        Links.setColor('white');
     } else {
         Body.setBackgroundColor('white');
         Body.setColor('black');
